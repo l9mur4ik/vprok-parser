@@ -1,0 +1,22 @@
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Puppeteer временные файлы
+*.local-chromium/
+*.cache/
+
+# Логи
+*.log
+
+# Скринов и выходные файлы
+screenshot.jpg
+error.jpg
+product.txt
+
+# IDE и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

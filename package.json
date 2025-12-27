@@ -1,0 +1,19 @@
+{
+    "name": "vprok-parser",
+    "version": "1.0.0",
+    "type": "commonjs",
+    "scripts": {
+        "start": "node src/index.js",
+        "lint": "eslint src",
+        "format": "prettier --write src"
+    },
+    "dependencies": {
+        "puppeteer": "^22.0.0"
+    },
+    "devDependencies": {
+        "@eslint/eslintrc": "^3.3.3",
+        "eslint": "^9.39.2",
+        "eslint-config-prettier": "^9.1.2",
+        "prettier": "^3.7.4"
+    }
+}
